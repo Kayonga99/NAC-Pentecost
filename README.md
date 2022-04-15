@@ -2,14 +2,15 @@
 
 # Project Name
 
-> Description the project.
+> HTML CSS and JavaScript Capstone.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML 
+- CSS
+- JavaScript
+
 
 ## Live Demo (if available)
 
