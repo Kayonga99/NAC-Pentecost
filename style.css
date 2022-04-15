@@ -5,3 +5,31 @@
 .nav-ul {
     display: none;
 }
+header {
+    display: none;
+}
+
+.cape {
+    background-image: url(./photos/first-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.article {
+    background-color: rgba(211, 211, 211, -16);
+    backdrop-filter: blur(3px);
+    opacity: 0.5;
+
+}
+
+.h1 {
+    margin-top: 42px;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
