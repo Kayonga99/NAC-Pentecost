@@ -138,6 +138,21 @@ header {
   color: #fff;
 }
 
+.img-w {
+  width: 64px;
+}
+
+.img-chief {
+  width: 84px;
+  margin-left: 39px;}
+
+.li-a-card {
+  background-image: url(./photos/blacknwhite.webp);
+  background-size: 55px;
+  background-repeat: no-repeat;
+  background-position: 20px -11px;
+}
+
 .j-us {
   margin-top: 34px;
   background-color: #ec5242;
@@ -170,4 +185,11 @@ header {
   margin-bottom: 36px;
   height: 4px;
   border-radius: 2px;
+}
+
+.speakers {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+  padding-top: 38px;
 }
