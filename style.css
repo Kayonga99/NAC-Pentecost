@@ -37,11 +37,11 @@ body {
 
 .moment-prg {
   color: #4e5053;
-  font-size: 19px;
+  font-size: 17px;
   font-family: 'Lato', sans-serif;
-  width: 316px;
+  width: 315px;
   justify-content: center;
-  padding-left: 12px;
+  padding-left: 38px;
   line-height: 24px;
   padding-top: 12px;
 }
@@ -64,9 +64,7 @@ header {
 }
 
 .article {
-  background-color: rgba(211, 211, 211, 9);
-  backdrop-filter: blur(48px);
-  opacity: 0.8;
+  background-color: rgb(255, 255, 255, 0.92);
 }
 
 .h1 {
@@ -92,8 +90,15 @@ header {
 }
 
 .date-1 {
-    font-size: 24px;
+  font-size: 24px;
+  padding-top: 13px;
+  color: #525252;
+  padding-bottom: 12px;
+}
 
+.date-tag {
+  margin-bottom: 124px;
+  color: #a8a8a8;
 }
 
 /* program */
@@ -101,8 +106,9 @@ header {
 .pro-cards {
     background-image: url(./photos/program-bg.jpeg);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 739px;
     color: #fff;
+    background-size: cover;
 }
 
 .pro-cds {
@@ -111,22 +117,58 @@ header {
 }
 
 .pro-div {
+  width: 327px  ;
   display: inline-flex;
   gap: 12px;
   font-size: 12px;
   line-height: 14px;
-
-  
-background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
   margin-left: 24px;
   margin-right: 24px;
-  backdrop-filter: blur(2px);
-  opacity: 0.5;
   color: #fff;
   margin-top: 12px;
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  border-radius: 0px;
+}
+
+.pdf {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.j-us {
+  margin-top: 34px;
+  background-color: #ec5242;
+  width: 327px;
+  height: 80px;
+  margin-left: 24px;
+}
+
+.pent {
+  font-family: 'poppins', sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  color: #fff;
+    text-align: center;
+  padding-top: 33px;
 
 }
 
-ul.pro-div li {
-  color: #fff;
+.h5 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+  padding-top: 38px;
+}
+
+.hr1 {
+  background-color: #ec5242;
+  width: 44px;
+  margin-left: 166px;
+  margin-top: 24px;
+  margin-bottom: 36px;
+  height: 4px;
+  border-radius: 2px;
 }
