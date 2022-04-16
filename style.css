@@ -147,10 +147,14 @@ header {
   margin-left: 39px;}
 
 .li-a-card {
-  background-image: url(./photos/blacknwhite.webp);
+  background-image: url(./photos/chbg.png);
   background-size: 55px;
   background-repeat: no-repeat;
   background-position: 20px -11px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 158px;
 }
 
 .j-us {
@@ -193,3 +197,43 @@ header {
   font-family: 'inter', sans-serif;
   padding-top: 38px;
 }
+
+.apostles-card {
+  height: 100%;
+  position: relative;
+}
+
+.all-A {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+
+.A-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-img {
+  width: 40px;
+ 
+}
+.grid-f {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 24px;
+}
+
+.sponsor {
+  background-color: #484949;
+}
+
+.by {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+  padding-top: 38px;
+}
+
