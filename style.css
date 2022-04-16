@@ -8,6 +8,7 @@
 
 body {
   background-color: #f5f5f5;
+  /* justify-content: center; */
   
 }
 
@@ -102,4 +103,9 @@ header {
     background-repeat: no-repeat;
     height: 400px;
     color: #fff;
+}
+
+.pro-cds {
+  display: flex;
+  flex-direction: column;
 }
