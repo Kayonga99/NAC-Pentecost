@@ -12,7 +12,6 @@ body {
   /* justify-content: center; */
 }
 
-
 .toggler {
   width: 35px;
   height: 5px;
@@ -108,7 +107,7 @@ header {
 }
 
 .a-block {
-  display: block; 
+  display: block;
 }
 
 .date-tag {
@@ -147,9 +146,9 @@ header {
 }
 
 .img-w {
-    width: 59px;
-    padding-left: 10px;
-    padding-top: 30px;
+  width: 59px;
+  padding-left: 10px;
+  padding-top: 30px;
 }
 
 .img-chief {
@@ -312,6 +311,45 @@ header {
 
 .title {
   color: #ec5242;
-font-family: 'Cambria, Cochin, Georgia, Times, "Times New Roman"', serif;
-font-size: 12px;
+  font-family: 'Cambria, Cochin, Georgia, Times, "Times New Roman"', serif;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  span.menu-tog {
+    display: block;
+  }
+
+  .header-div {
+    display: flex;
+    background-color: #525252;
+  }
+
+  .icons-ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+    margin-left: 3em;
+  }
+
+  .nav-ul {
+    display: block;
+  }
+
+  header {
+    display: block;
+  }
+
+  .cape {
+    display: none;
+  }
+
+  .dsk-cape {
+    display: block;
+  }
+
+  .h-icon {
+    width: 20px;
+    background-color: #525252;
+  }
 }
