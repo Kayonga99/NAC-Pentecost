@@ -139,17 +139,18 @@ header {
 }
 
 .img-chief {
-  width: 84px;
-  margin-left: 39px;
+  width: 87px;
+  margin-left: 28px;
 }
 
 .li-a-card {
   background-image: url(./photos/chbg.png);
   background-size: 55px;
   background-repeat: no-repeat;
-  background-position: 20px -11px;
+  background-position: 10px -11px;
   list-style: none;
   display: flex;
+  gap: 14px;
   flex-direction: row;
   height: 158px;
 }
@@ -283,4 +284,16 @@ header {
 
 .clossing-f {
   height: 135px;
+}
+
+.Name {
+  font-size: 20px;
+  color: #272a31;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+  color: #ec5242;
+font-family: 'Cambria, Cochin, Georgia, Times, "Times New Roman"', serif;
+font-size: 12px;
 }
