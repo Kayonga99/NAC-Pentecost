@@ -28,7 +28,7 @@ body {
 }
 
 .greet {
-  padding-top: 80px;
+  padding-top: 116px;
   color: red;
   margin-left: 24px;
 }
@@ -75,7 +75,7 @@ header {
 }
 
 .h1 {
-  margin-top: 42px;
+  margin-top: 8px;
   font-family: 'Cocogoose', sans-serif;
   font-size: 36px;
   text-transform: uppercase;
@@ -101,6 +101,14 @@ header {
   padding-top: 13px;
   color: #525252;
   padding-bottom: 12px;
+}
+
+.a-none {
+  display: none;
+}
+
+.a-block {
+  display: block; 
 }
 
 .date-tag {
@@ -259,6 +267,10 @@ header {
   margin-left: 13px;
   margin-bottom: 12px;
   padding: 9px;
+}
+
+.r-more {
+  display: none;
 }
 
 .n-zm {
