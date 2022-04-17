@@ -126,22 +126,22 @@ header {
   margin-left: 24px;
   margin-right: 24px;
   height: 109px;
-  background: yellow;
   color: #fff;
   margin-top: 12px;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%); 
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
   border-radius: 0;
 }
 
 .img-w {
   width: 59px;
   padding-left: 10px;
-padding-top:23px ;
+  padding-top: 23px;
 }
 
 .img-chief {
   width: 84px;
-  margin-left: 39px;}
+  margin-left: 39px;
+}
 
 .li-a-card {
   background-image: url(./photos/chbg.png);
@@ -207,7 +207,6 @@ padding-top:23px ;
   list-style: none;
 }
 
-
 .A-div {
   display: flex;
   flex-direction: column;
@@ -215,8 +214,8 @@ padding-top:23px ;
 
 .footer-img {
   width: 40px;
- 
 }
+
 .grid-f {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -236,7 +235,7 @@ padding-top:23px ;
 }
 
 .arrow {
-  border: solid #ec5242;;
+  border: solid #ec5242;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -256,13 +255,14 @@ padding-top:23px ;
 }
 
 .n-zm {
-  color:  #a8a8a8;
+  color: #a8a8a8;
 }
 
 .n-zmf {
   color: #a8a8a8;
   padding-left: 17px;
-  padding-top: 60px;}
+  padding-top: 60px;
+}
 
 .lpd {
   color: #ec5242;
@@ -270,6 +270,7 @@ padding-top:23px ;
   font-size: 17px;
   font-family: 'monospace', sans-serif;
 }
+
 .msgp {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
