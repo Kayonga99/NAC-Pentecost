@@ -12,13 +12,19 @@ body {
   /* justify-content: center; */
 }
 
-.togler {
-  color: grey;
-  position: absolute;
-  margin-top: 20px;
-  width: 37px;
-  margin-left: 24px;
-  background-color: #fff;
+
+.toggler {
+  width: 35px;
+  height: 5px;
+  background-color: #4e5053;
+  margin: 6px 0;
+}
+
+.menu-tog {
+  position: fixed;
+  padding-left: 34px;
+  padding-top: 24px;
+  width: 372px;
 }
 
 .greet {
