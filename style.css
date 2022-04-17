@@ -129,7 +129,7 @@ header {
   background: yellow;
   color: #fff;
   margin-top: 12px;
-  /* background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%); */
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%); 
   border-radius: 0;
 }
 
@@ -259,6 +259,11 @@ padding-top:23px ;
   color:  #a8a8a8;
 }
 
+.n-zmf {
+  color: #a8a8a8;
+  padding-left: 17px;
+  padding-top: 60px;}
+
 .lpd {
   color: #ec5242;
   margin-top: 47px;
@@ -273,4 +278,8 @@ padding-top:23px ;
   line-height: 17px;
   width: 161px;
   color: #fff;
+}
+
+.clossing-f {
+  height: 135px;
 }
