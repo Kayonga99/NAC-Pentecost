@@ -128,14 +128,14 @@ header {
   height: 109px;
   color: #fff;
   margin-top: 12px;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 5) 0.81%, rgba(38, 38, 38, 0.5) 84.03%);
   border-radius: 0;
 }
 
 .img-w {
-  width: 59px;
-  padding-left: 10px;
-  padding-top: 30px;
+    width: 59px;
+    padding-left: 10px;
+    padding-top: 30px;
 }
 
 .img-chief {
