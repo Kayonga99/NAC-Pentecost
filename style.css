@@ -322,14 +322,17 @@ header {
 
   .header-div {
     display: flex;
-    background-color: #525252;
+    flex-direction: column;
   }
 
   .icons-ul {
     display: inline-flex;
     justify-content: flex-end;
     gap: 0.5em;
-    margin-left: 3em;
+    background-color: #444444;
+    width: 100%;
+    padding-right: 162px;
+    color: #fff;
   }
 
   .nav-ul {
@@ -351,5 +354,13 @@ header {
   .h-icon {
     width: 20px;
     background-color: #525252;
+  }
+
+  .h-trans {
+    width: 25px;
+  }
+
+  .mine {
+    background-color: #fff;
   }
 }
