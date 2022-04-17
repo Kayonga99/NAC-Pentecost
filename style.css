@@ -18,6 +18,7 @@ body {
   margin-top: 20px;
   width: 37px;
   margin-left: 24px;
+  background-color: #fff;
 }
 
 .greet {
@@ -106,7 +107,7 @@ header {
 .pro-cards {
   background-image: url(./photos/program-bg.jpeg);
   background-repeat: no-repeat;
-  height: 739px;
+  height: 893px;
   color: #fff;
   background-size: cover;
 }
@@ -119,27 +120,23 @@ header {
 .pro-div {
   width: 327px;
   display: inline-flex;
-  gap: 12px;
+  gap: 9px;
   font-size: 12px;
   line-height: 14px;
   margin-left: 24px;
   margin-right: 24px;
+  height: 109px;
+  background: yellow;
   color: #fff;
   margin-top: 12px;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  /* background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%); */
   border-radius: 0;
 }
 
-.pdf {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #fff;
-}
-
 .img-w {
-  width: 64px;
+  width: 59px;
+  padding-left: 10px;
+padding-top:23px ;
 }
 
 .img-chief {
@@ -235,5 +232,45 @@ header {
   font-size: 20px;
   font-family: 'inter', sans-serif;
   padding-top: 38px;
+  color: #fff;
 }
 
+.arrow {
+  border: solid #ec5242;;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 4px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.more {
+  width: 342px;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  padding: 9px;
+}
+
+.n-zm {
+  color:  #a8a8a8;
+}
+
+.lpd {
+  color: #ec5242;
+  margin-top: 47px;
+  font-size: 17px;
+  font-family: 'monospace', sans-serif;
+}
+.msgp {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 5px;
+  line-height: 17px;
+  width: 161px;
+  color: #fff;
+}
