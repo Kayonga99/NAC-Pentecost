@@ -112,7 +112,8 @@ header {
 
 .date-tag {
   margin-bottom: 124px;
-  color: #a8a8a8;
+  color: #6d6d6d;
+  font-weight: 700;
 }
 
 /* program */
@@ -121,6 +122,7 @@ header {
   background-image: url(./photos/program-bg.jpeg);
   background-repeat: no-repeat;
   height: 893px;
+  width: 375px;
   color: #fff;
   background-size: cover;
 }
@@ -140,6 +142,7 @@ header {
   margin-right: 24px;
   height: 109px;
   color: #fff;
+  font-weight: 800;
   margin-top: 12px;
   background: linear-gradient(179.4deg, rgba(38, 38, 38, 5) 0.81%, rgba(38, 38, 38, 0.5) 84.03%);
   border-radius: 0;
@@ -311,13 +314,14 @@ header {
 
 .title {
   color: #ec5242;
-  font-family: 'Cambria, Cochin, Georgia, Times, "Times New Roman"', serif;
+  font-family: 'poppins', sans-serif;
+  font-style: oblique;
   font-size: 12px;
 }
 
 @media screen and (min-width: 768px) {
   span.menu-tog {
-    display: block;
+    display: none;
   }
 
   .header-div {
@@ -329,14 +333,52 @@ header {
     display: inline-flex;
     justify-content: flex-end;
     gap: 0.5em;
-    background-color: #444444;
+    background-color: #444;
     width: 100%;
     padding-right: 162px;
     color: #fff;
   }
 
   .nav-ul {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-direction: row;
+    color: #bebebe;
+    padding-top: 27px;
+    font-family: 'lato', sans-serif;
+    padding-right: 162px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .h33 {
+    color: red;
+    margin-top: -15px;
+    border: 4px solid red;
+    margin-left: 3px;
+    padding: 9px;
+    font-size: 18px;
+  }
+
+  .new-a {
+    width: 150px;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: 'lato', sans-serif;
+    color: #333;
+  }
+
+  .span- {
+    display: flex;
+
+    /* position: absolute; */
+    position: absolute;
+    padding-top: 17px;
+    flex-direction: row;
+
+    /* width: 200px; */
+    padding-left: 180px;
   }
 
   header {
@@ -357,10 +399,50 @@ header {
   }
 
   .h-trans {
-    width: 25px;
+    width: 36px;
   }
 
   .mine {
     background-color: #fff;
+  }
+
+  .h1 {
+    margin-top: 8px;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 60px;
+    margin-left: 198px;
+    width: 792px;
+  }
+
+  .greet {
+    padding-left: 198px;
+    font-family: 'lato', serif;
+  }
+
+  .moment {
+    width: 668px;
+    height: 129px;
+    border: 3px solid #fff;
+    border-radius: 1px;
+    margin-left: 198px;
+    margin-top: 12px;
+  }
+
+  .moment-prg {
+    color: #4e5053;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    width: 515px;
+    padding-top: 36px;
+  }
+
+  .date {
+    margin-left: 198px;
+  }
+
+  .date-1 {
+    font-size: 35px;
+    padding-top: 13px;
+    color: #3b3b3b;
   }
 }
