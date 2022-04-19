@@ -28,7 +28,7 @@ body {
 
 .greet {
   padding-top: 116px;
-  color: red;
+  color:#ec5242;
   margin-left: 24px;
 }
 
@@ -78,7 +78,7 @@ header {
   font-family: 'Cocogoose', sans-serif;
   font-size: 36px;
   text-transform: uppercase;
-  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+  background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./photos/it.jpeg);
   background-repeat: repeat;
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -87,6 +87,7 @@ header {
   margin-left: 24px;
   width: 327px;
 }
+
 
 .date {
   font-family: 'Cocogoose', sans-serif;
@@ -144,7 +145,7 @@ header {
   color: #fff;
   font-weight: 800;
   margin-top: 12px;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 5) 0.81%, rgba(38, 38, 38, 0.5) 84.03%);
+  background-color: rgba(136, 133, 133, 0.3);
   border-radius: 0;
 }
 
@@ -222,6 +223,14 @@ header {
   flex-direction: column;
   gap: 12px;
   list-style: none;
+}
+
+.work {
+  color: grey;
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 .A-div {
@@ -330,13 +339,19 @@ header {
   }
 
   .icons-ul {
-    display: inline-flex;
+    display: flex;
     justify-content: flex-end;
-    gap: 0.5em;
+    gap: 1.5em;
     background-color: #444;
     width: 100%;
     padding-right: 162px;
     color: #fff;
+padding-top: 4px;
+  }
+
+  .logt {
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
   }
 
   .nav-ul {
@@ -353,9 +368,9 @@ header {
   }
 
   .h33 {
-    color: red;
+    color: #fa3737;
     margin-top: -15px;
-    border: 4px solid red;
+    border: 4px solid #fa3737;
     margin-left: 3px;
     padding: 9px;
     font-size: 18px;
@@ -371,13 +386,9 @@ header {
 
   .span- {
     display: flex;
-
-    /* position: absolute; */
     position: absolute;
     padding-top: 17px;
     flex-direction: row;
-
-    /* width: 200px; */
     padding-left: 180px;
   }
 
@@ -408,10 +419,10 @@ header {
 
   .h1 {
     margin-top: 8px;
-    font-family: 'Cocogoose', sans-serif;
-    font-size: 60px;
+    font-size: 52px;
     margin-left: 198px;
     width: 792px;
+    font-weight: 800;
   }
 
   .greet {
@@ -445,4 +456,84 @@ header {
     padding-top: 13px;
     color: #3b3b3b;
   }
+
+  .pro-cards {
+    width: 100%;
+  }
+
+/* program */
+/* 
+.lpd {
+  display: none;
+}
+
+.lpd-dsk {
+  display: flex;
+}
+
+.pro-div {
+  display: none;
+}
+.pro-dsk {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 284px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.lpd99 {
+  display: flex;
+  gap: 2px;
+}
+
+ ul.pro-cds li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  background-color: red;
+}
+
+.bptsm {
+  display: flex;
+} */
+
+/* Featured speakers */
+
+.all-A {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 162px;
+  padding-right: 162px;
+}
+
+.more {
+  display: none;
+}
+
+.a-none {
+  display: block;
+}
+
+/* footer */
+
+.footer-img {
+  width: 25px;
+}
+
+.grid-f {
+  display: flex;
+  flex-direction: row;
+  margin-left: 198px;
+  justify-content: space-between;
+  padding-bottom: 45px;
+  padding-right: 198px;
+}
+
+.hr1 {
+  margin-left: 681px;
+}
+
 }
