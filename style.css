@@ -291,6 +291,7 @@ header {
 .n-zmf {
   color: #a8a8a8;
   padding-left: 17px;
+  font-size: 17px;
   padding-top: 60px;
 }
 
@@ -311,9 +312,6 @@ header {
   color: #fff;
 }
 
-.clossing-f {
-  height: 135px;
-}
 
 .Name {
   font-size: 20px;
@@ -506,7 +504,14 @@ padding-top: 4px;
   display: grid;
   grid-template-columns: auto auto;
   padding-left: 162px;
+  padding-bottom: 89px;
   padding-right: 162px;
+}
+
+.li-a-card {
+padding-top: 12px;
+margin-top: 28px;
+background-position: 10px -6px;
 }
 
 .more {
@@ -517,10 +522,23 @@ padding-top: 4px;
   display: block;
 }
 
+.img-chief {
+  width: 109px;
+  height: 145px;
+  margin-left: 28px;
+}
+
 /* footer */
 
 .footer-img {
   width: 25px;
+}
+
+.clossing-f {
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .grid-f {
@@ -533,7 +551,23 @@ padding-top: 4px;
 }
 
 .hr1 {
-  margin-left: 681px;
+  margin-left: 652px;
 }
+
+.footer-logo {
+  width: 40px;
+}
+
+.n-zmf12 {
+  padding-top: 34px;
+  padding-left: 198px;
+}
+
+.n-zmf {
+  font-size: 17px;
+  padding-right: 162px;
+  padding-top: 60px;
+}
+
 
 }
