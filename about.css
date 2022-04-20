@@ -465,6 +465,7 @@ header {
 
   .abt-hr {
     margin-top: 53px;
+    background-color: grey;
   }
 
   .past-bg1 {
@@ -488,6 +489,7 @@ header {
     justify-content: center;
     gap: 60px;
     margin-bottom: 90px;
+    margin-top: 67px;
   }
 
   .hp {
@@ -514,9 +516,23 @@ header {
     text-align: center;
     font-size: 25px;
     font-family: 'inter', sans-serif;
+    padding-top: 80px;
+  }
+
+  .p-prg1 {
+      text-align: center;
+      color: rgb(163, 163, 163);
+      font-size: 13px;
+      font-family: 'poppins', sans-serif;
+      font-weight: bold;
   }
 
   .pas-div:hover {
     opacity: 0;
+  }
+
+  .see-section {
+      background-color: #fff;
+      height: 590px;
   }
 }
