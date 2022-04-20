@@ -1,8 +1,8 @@
 const apostles = document.querySelectorAll('.a-none');
 const showApostles = document.querySelector('.more');
-const openMenu = document.querySelectorAll('.menu-tog')
+const openMenu = document.querySelectorAll('.menu-tog');
 const closeMenu = document.querySelector('.close-x');
-const aboutMenu = document.getElementById('menu')
+const aboutMenu = document.getElementById('menu');
 
 showApostles.addEventListener('click', () => {
   showApostles.classList.add('r-more');
@@ -14,11 +14,11 @@ showApostles.addEventListener('click', () => {
 });
 
 openMenu.forEach((element) => {
-element.addEventListener('click', () => {
-  aboutMenu.style.display = 'block';
-})
-})
+  element.addEventListener('click', () => {
+    aboutMenu.style.display = 'block';
+  });
+});
 
 aboutMenu.addEventListener('click', () => {
   aboutMenu.style.display = 'none';
-})
+});
