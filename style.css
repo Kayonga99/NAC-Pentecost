@@ -64,6 +64,8 @@ header {
   display: none;
 }
 
+/* pop-up */
+
 #menu {
   position: absolute;
   top: 0;
@@ -80,9 +82,30 @@ header {
   display: none;
 }
 
+.close-x {
+  padding-top: 12px;
+  margin-left: 323px;
+  font-size: 45px;
+}
+
+.modal-to {
+  padding-left: 107px;
+  font-size: 30px;
+  font-family: 'poppins', sans-serif;
+  font-weight: bold;
+
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
 .menu {
   display: none;
 }
+
 
 .cape {
   background-image: url(./photos/first-bg.jpg);
