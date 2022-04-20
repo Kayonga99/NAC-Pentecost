@@ -464,6 +464,59 @@ header {
   }
 
   .abt-hr {
-    margin-top: 45px;
+    margin-top: 53px;
+  }
+
+  .past-bg1 {
+    background-image: url(./photos/first-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 217px;
+    width: 382px;
+  }
+
+  .past-bg2 {
+    background-image: url(./photos/vn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 217px;
+    width: 382px;
+  }
+
+  .past-d {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 90px;
+  }
+
+  .hp {
+    color: #fff;
+    padding: 14px;
+    padding-top: 69px;
+    text-align: center;
+  }
+
+  .pas-div {
+    background-color: rgba(207, 6, 6, 0.6);
+    height: 217px;
+    width: 382px;
+  }
+
+  .past-p {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .abt-see {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'inter', sans-serif;
+  }
+
+  .pas-div:hover {
+    opacity: 0;
   }
 }
