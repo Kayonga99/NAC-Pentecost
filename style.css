@@ -108,6 +108,7 @@ header {
 .cape {
   background-image: url(./photos/first-bg.jpg);
   background-repeat: no-repeat;
+  width: 117%;
 }
 
 .footer-logo {
@@ -294,6 +295,7 @@ header {
 
 .sponsor {
   background-color: #484949;
+  width: 117%;
 }
 
 .by {
