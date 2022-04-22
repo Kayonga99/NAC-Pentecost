@@ -410,7 +410,7 @@ li.modal-to a {
 }
 
 @media screen and (min-width: 768px) {
-  span.menu-tog {
+  .menu-tog {
     display: none;
   }
 
