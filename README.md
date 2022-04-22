@@ -20,8 +20,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-[Click here to view web]()
-[video record link]()
+[Click here to view web](https://kayonga99.github.io/Capstone/)
+
+[video record link](https://drive.google.com/file/d/1Ih4VJFSa5la1M2J8bljldI1RsmKmveFt/view?usp=sharing)
 
 
 
