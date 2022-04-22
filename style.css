@@ -629,8 +629,7 @@ li.modal-to a {
     display: flex;
     flex-direction: row;
     gap: 2px;
-    margin-left: 198px;
-    margin-right: 198px;
+    margin: 4.5rem 12rem 0rem 12rem;
   }
 
   /* Featured speakers */
