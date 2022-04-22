@@ -4,11 +4,19 @@ const openMenu = document.querySelectorAll('.menu-tog');
 const closeMenu = document.querySelector('.close-x');
 const aboutMenu = document.getElementById('menu');
 
+
+// showApostles.addEventListener('click', () => {
+// });
+
 showApostles.addEventListener('click', () => {
   showApostles.classList.add('r-more');
-});
-showApostles.addEventListener('click', () => {
+  li.forEach((element) => {
+
+    element.classList.remove('a-none')
+  })
+
   apostles.forEach((element) => {
+
     element.style.display = 'block';
   });
 });
@@ -47,18 +55,21 @@ const speakers = [
 },
 {
   name: 'Apostle John',
+  class: 'a-none',
   title: 'District Apostle of brazil.',
   roll: 'Apostle john together with his 7 intourage has been invited to the devine service.',
   featuredImage: './photos/apostles/ast.jpg',
 },
 {
   name: 'Apostle Kriel',
+  class: 'a-none',
   title: 'District Apostle for southen Africa',
   roll: 'The Apostle together with the chief apostles will be baptising after the service.',
   featuredImage: './photos/apostles/john-kriel.webp',
 },
 {
   name: 'Apostle Ndandula',
+  class: 'a-none',
   title: 'District Apostle of Zambia, Malwi & Zimbabwe Nac',
   roll: 'Our dear apostles has been assigned together with his helper to give holy communion.',
   featuredImage: './photos/apostles/ndandula.jpg',
@@ -67,7 +78,7 @@ const speakers = [
 ];
 
 const apostlesArr = speakers.map((card) => `
-<li>
+<li class=" remove ${card.class}">
 <ul class="li-a-card">
 <li><img class="img-chief" src="${card.featuredImage}" alt="man-img"></li>
 <li>
@@ -82,3 +93,6 @@ const apostlesArr = speakers.map((card) => `
 `).join('');
 
 speakersList.innerHTML += apostlesArr;
+
+const li = document.querySelectorAll('.remove')
+console.log(li);

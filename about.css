@@ -329,7 +329,6 @@ header {
   width: 100%;
 }
 
-
 .whole-p {
   display: none;
 }
@@ -770,9 +769,9 @@ header {
     display: none;
   }
 
-ul.nav-ul li a {
-  color: #bebebe;;
-}
+  ul.nav-ul li a {
+    color: #bebebe;
+  }
 
   .pas-div:hover {
     opacity: 0;
