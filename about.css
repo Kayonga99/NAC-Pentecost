@@ -102,7 +102,7 @@ body {
   justify-content: center;
   gap: 29px;
   flex-direction: column;
-  margin-bottom: 90px;
+  margin-bottom: 46px;
   margin-top: 67px;
   margin-right: 24px;
   margin-left: 24px;
@@ -327,6 +327,11 @@ header {
 .sponsor {
   background-color: #484949;
   width: 100%;
+}
+
+
+.whole-p {
+  display: none;
 }
 
 .by {
@@ -644,7 +649,7 @@ header {
   }
 
   .about-e {
-    height: 600px;
+    height: 707px;
     width: 100%;
     background-color: #fff;
   }
@@ -653,6 +658,8 @@ header {
     text-align: center;
     font-size: 24px;
     padding-top: 58px;
+    width: 85%;
+    padding-left: 17%;
     color: #222;
     font-family: 'poppins', sans-serif;
   }
@@ -662,7 +669,7 @@ header {
     width: 695px;
     height: 146px;
     color: grey;
-    margin-left: 340px;
+    margin-left: 295px;
     font-size: 19px;
   }
 
@@ -670,6 +677,7 @@ header {
     border: 1px solid #e9e9e9;
     width: 595px;
     margin-left: 382px;
+    height: 327px;
   }
 
   .abt-h4 {
@@ -753,8 +761,18 @@ header {
     color: rgb(163, 163, 163);
     font-size: 13px;
     font-family: 'poppins', sans-serif;
+    width: 60%;
+    margin-left: 290px;
     font-weight: bold;
   }
+
+  .whole-p {
+    display: none;
+  }
+
+ul.nav-ul li a {
+  color: #bebebe;;
+}
 
   .pas-div:hover {
     opacity: 0;
@@ -771,6 +789,8 @@ header {
     font-family: 'inter', sans-serif;
     color: rgb(131, 131, 131);
     padding-top: 81px;
+    width: 950px;
+    padding-left: 268px;
   }
 
   .email {
@@ -778,9 +798,12 @@ header {
     text-align: center;
     color: rgb(131, 131, 131);
     font-family: 'lato', sans-serif;
+    width: 398px;
     font-weight: bold;
+    margin-left: 437px;
     padding-top: 16px;
-    padding-bottom: 91px;
+    padding-bottom: 11px;
+    margin-bottom: 90px;
   }
 
   .greet {

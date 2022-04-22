@@ -82,6 +82,10 @@ header {
   display: none;
 }
 
+li.modal-to a {
+  color: rgb(48, 47, 47);
+}
+
 .close-x {
   padding-top: 12px;
   margin-left: 323px;
@@ -172,26 +176,25 @@ header {
   color: #fff;
   background-size: cover;
 }
-
-.pro-cds {
-  display: flex;
-  flex-direction: column;
-}
+  
+  .pro-cds {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
 
 .pro-div {
-  width: 327px;
-  display: inline-flex;
-  gap: 9px;
-  font-size: 12px;
-  line-height: 14px;
-  margin-left: 24px;
-  margin-right: 24px;
-  height: 109px;
-  color: #fff;
-  font-weight: 800;
-  margin-top: 12px;
+display: flex;
+flex-direction: row;
+gap: 1em;
+}
+
+.lpd99 {
+  display: flex;
   background-color: rgba(136, 133, 133, 0.3);
-  border-radius: 0;
+  width: 327px;
+  height: 121px;
+  margin-left: 24px;
 }
 
 .img-w {
@@ -343,9 +346,10 @@ header {
 
 .lpd {
   color: #ec5242;
-  margin-top: 47px;
   font-size: 17px;
   font-family: 'monospace', sans-serif;
+  text-align: center;
+  padding-top: 3rem;
 }
 
 .msgp {
@@ -356,6 +360,31 @@ header {
   line-height: 17px;
   width: 161px;
   color: #fff;
+}
+
+.msgp1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 1rem;
+  line-height: 17px;
+  width: 161px;
+  color: #fff;
+}
+
+.msgp2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 29px;
+  line-height: 17px;
+  width: 161px;
+  color: #fff;
+}
+
+
+.whole-p {
+  display: none;
 }
 
 .Name {
@@ -375,6 +404,24 @@ header {
   span.menu-tog {
     display: none;
   }
+
+.sponsor {
+  width: 100%;
+}
+
+.whole-p {
+  display: block;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  width: 220px;
+  padding-top: 87px;
+  margin-left: 610px;
+}
+
+.j-us {
+  display: none;
+}
 
   .header-div {
     display: flex;
@@ -445,6 +492,7 @@ header {
 
   .dsk-cape {
     display: block;
+    width: 100%;
   }
 
   .h-icon {
@@ -562,6 +610,10 @@ header {
 
   .more {
     display: none;
+  }
+
+  ul.nav-ul li a {
+    color: #bebebe;;
   }
 
   .a-none {
