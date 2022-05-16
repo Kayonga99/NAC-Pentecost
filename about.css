@@ -455,7 +455,7 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  span.menu-tog {
+  .menu-tog {
     display: none;
   }
 
@@ -804,7 +804,6 @@ header {
     font-family: 'lato', sans-serif;
     width: 398px;
     font-weight: bold;
-    margin-left: 437px;
     padding-top: 16px;
     padding-bottom: 11px;
     margin-bottom: 90px;
