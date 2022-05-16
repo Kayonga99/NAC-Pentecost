@@ -38,7 +38,7 @@ const speakers = [
     class: 'a-none',
     title: 'District Apostle for southen Africa',
     roll: 'The Apostle together with the chief apostles will be baptising after the service.',
-    featuredImage: './photos/apostles/john-kriel.webp',
+    featuredImage: './photos/apostles/apostlejk.jpg',
   },
   {
     name: 'Apostle Ndandula',
